@@ -4,36 +4,6 @@
   <artifactId>demo</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   
-    <build>
-    <pluginManagement>
-      <plugins>
-        <plugin>
-          <groupId>org.apache.maven.plugins</groupId>
-          <artifactId>maven-surefire-plugin</artifactId>
-          <version>3.5.5</version>
-        </plugin>
-      </plugins>
-    </pluginManagement>
-  </build>
   
-    <reporting>
-    <plugins>
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-surefire-report-plugin</artifactId>
-        <version>3.5.5</version>
-      </plugin>
-    </plugins>
-  </reporting>
-  
-  
-  <dependencies>
-  <!-- Source: https://mvnrepository.com/artifact/org.testng/testng -->
-<dependency>
-    <groupId>org.testng</groupId>
-    <artifactId>testng</artifactId>
-    <version>7.12.0</version>
-    <scope>test</scope>
-</dependency>
-  </dependencies>
+ 
 </project>
